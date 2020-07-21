@@ -38,6 +38,8 @@ function grillRnd() {
         } else if(value > 5) {
           target.addClass('green'); // Aggiungo classe bg green
         }
+
+        target.unbind('click'); // Faccio in modo che il quadratino non abbia più il listener dopo che è stato cliccato
       } else {
         console.log('error'); // Mostro errore in console
       }
