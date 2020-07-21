@@ -1,0 +1,39 @@
+/* Es.1 Ajax call with random array - 21 Luglio 2020 CSS */
+
+/* Generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #cecece;
+}
+main {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+/* Box dati */
+#even {
+  background-color: green;
+  width: 200px;
+  height: 50px;
+  color: white;
+  padding: 5px;
+  border: solid 1px white;
+}
+#odd {
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  color: white;
+  padding: 5px;
+  border: solid 1px white;
+}
+#btn {
+  margin: 20px;
+}
